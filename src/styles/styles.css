@@ -19,13 +19,12 @@ body{
 
 .page-nav__item{
     text-decoration: none;
-    color: black;
+    color: #000000;
 }
 
 .page-nav__item.page-nav__item--primary{
     background-color: var(--db-color-primary);
     padding: var(--db-spacing-s);
-    color: #fff;
+    color: #000000;
     border-radius: var(--db-rounded-xs);
-
 }
