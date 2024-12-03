@@ -1,0 +1,15 @@
+/** VARIABLES **/
+
+:root{
+    --db-color-primary:#fbc02d;
+    --db-color-secondary: #3c3e44;
+    --db-page-bg: #272B33;
+
+    --db-spacing-s:8px;
+    --db-spacing-md:12px;
+    --db-spacing-lg: 16px;
+
+    --db-rounded-xs: 5px;
+
+
+}
