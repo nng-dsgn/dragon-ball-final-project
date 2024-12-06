@@ -57,23 +57,25 @@ body{
     background-color: var(--db-color-secondary);
     border-radius: var(--db-border-radius);
     box-shadow: var(--db-box-shadow);
-    overflow: hidden;
+    overflow: visible; /* Asegúrate de que el contenido que sobresale no sea recortado */
     width: var(--db-card-width);
     margin: 0 auto;
     position: relative;
 }
-
 
 /* Imagen de fondo */
 .card-img-container {
     position: relative;
     height: var(--db-img-background-height);
     overflow: hidden;
+    background-position: center center;
+    border-top-left-radius: var(--db-border-radius); /* Redondear la esquina superior izquierda */
+    border-top-right-radius: var(--db-border-radius); /* Redondear la esquina superior derecha */
 }
 
 .bg-card-img {
-    width: 100%;
-    height: 100%;
+    height: var(--db-img-background-height);
+    width: var(--db-img-background-width);
     object-fit: cover;  /* Asegura que la imagen cubra el contenedor sin distorsionarse */
 }
 

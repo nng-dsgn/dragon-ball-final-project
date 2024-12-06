@@ -43,6 +43,7 @@
     --db-card-width: 320px; /* Ancho de la card */
     --db-card-height: 450px; /* Altura de la card */
     --db-card-img-height: 80%; /* Altura de la imagen de Goku */
+    --db-card-img-width: 100%; /* Ancho de la imagen de Goku */
     --db-img-background-height: 100%; /* Altura de la imagen de fondo */
     --db-img-background-width: 100%; /* Ancho de la imagen de fondo */
 
