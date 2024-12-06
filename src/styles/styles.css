@@ -35,16 +35,13 @@ body{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    font-size: var(--db-font-size-heading);
+    color: var(--db-color-primary);
 }
 
 .page-home_img-header{
     max-width: 100%;
     margin-bottom: var(--db-spacing-lg);
-}
-
-.page-home_header{
-    font-size: var(--db-font-size-heading);
-    color: var(--db-color-primary);
 }
 
 /* Card Container */
